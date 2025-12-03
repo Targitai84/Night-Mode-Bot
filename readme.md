@@ -26,23 +26,23 @@
 ---
 
 ## 📂 Структура проекта
-
+```bash
 /
-├── index.php # основной обработчик Telegram webhook
-├── cron_job.php # автоматизация для CRON
-├── groups/ # конфиги групп
-│ └── <group_id>.json
-├── settings
-|  | └── settings.json # глобальные настройки бота
-|  └──lang/
-│   ├── ru.json
-│   ├─── en.json
-|   └── en.json
+├── index.php          # основной обработчик Telegram webhook
+├── cron_job.php       # автоматизация для CRON
+├── groups/            # конфиги групп
+│   └── <group_id>.json
+├── settings/
+│   ├── settings.json  # глобальные настройки бота
+│   └── lang/
+│       ├── ru.json
+│       └── en.json
 ├── logs/
-│ └── YYYY-MM-DD.log
-├─── telegram.php # sendMessage, setChatPermissions, utils
+│   └── YYYY-MM-DD.log
+├── telegram.php       # sendMessage, setChatPermissions, utils
 ├── .gitignore
 └── README.md
+```
 
 ## ⚙️ Установка
 
@@ -52,7 +52,9 @@
 git clone https://github.com/Targitai84/nightmode-bot.git
 cd nightmode-bot
 ```
+
 ###  2. Настраиваем settings.json
+```bash
 {
   "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
   "log_level": "info",
@@ -90,6 +92,7 @@ cd nightmode-bot
     "can_manage_topics": false
   }
 }
+```
 ###  3. Настройка Webhook
 curl -F "url=https://yourdomain.com/bot.php" \
      https://api.telegram.org/botYOUR_TOKEN/setWebhook
