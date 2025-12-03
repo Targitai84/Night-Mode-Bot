@@ -1,12 +1,13 @@
 # Telegram Night Mode Bot
 ![PHP](https://img.shields.io/badge/PHP-7.4+-blue)
-![GitHub release](https://img.shields.io/github/v/release/Targitai84/nightmode-bot)
+![GitHub release](https://img.shields.io/github/v/release/Targitai84/night-mode-bot)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 Автоматический бот для Telegram-групп, который включает и выключает «ночной режим» по расписанию.  
 Бот умеет запрещать отправку сообщений ночью и автоматически включать чат утром.  
 Поддерживает несколько языков (RU/EN), управление через команды и cron-автоматизацию.
 
+(Полностью вайкодинг, так что можете использовать как захотите)
 ---
 
 ## ✨ Возможности
