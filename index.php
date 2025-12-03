@@ -8,7 +8,7 @@ define("ROOT", __DIR__);
 define("SETTINGS_PATH", ROOT . "/settings/settings.json");
 define("GROUPS_PATH", ROOT . "/groups/");
 define("LOGS_PATH", ROOT . "/logs/");
-
+ 
 require ROOT."/bot_commands.php";
 require ROOT."/telegram_api.php";
 
