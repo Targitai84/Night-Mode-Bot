@@ -49,7 +49,7 @@
 ### 1. Клонируем проект
 
 ```bash
-git clone https://github.com/Targitai84/nightmode-bot.git
+git clone https://github.com/Targitai84/night-mode-bot.git
 cd nightmode-bot
 ```
 
