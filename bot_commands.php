@@ -197,7 +197,7 @@ function handleMessage($msg) {
             $cfg['timezone'] = ($offset >= 0 ? "+" : "") . $offset;
             file_put_contents($file, json_encode($cfg, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE));
             $msg = sprintf(
-                $lang['timezone_updated'],
+                $lang['tz_set'],
                 $cfg['timezone']
             );
             sendMessage($chat_id, $msg);
